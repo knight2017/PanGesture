@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C58C2101E09FB6E00116A29 /* qweViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58C20F1E09FB6E00116A29 /* qweViewController.swift */; };
+		5C74E3391E0A357200742961 /* we.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74E3381E0A357200742961 /* we.swift */; };
 		BE84137F1AB943D700BE5171 /* gradientTop.png in Resources */ = {isa = PBXBuildFile; fileRef = BE84137B1AB943D700BE5171 /* gradientTop.png */; };
 		BE8413801AB943D700BE5171 /* gradientTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE84137C1AB943D700BE5171 /* gradientTop@2x.png */; };
 		BE8413811AB943D700BE5171 /* gradientTop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE84137D1AB943D700BE5171 /* gradientTop@3x.png */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		5C58C20F1E09FB6E00116A29 /* qweViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qweViewController.swift; sourceTree = "<group>"; };
+		5C74E3381E0A357200742961 /* we.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = we.swift; sourceTree = "<group>"; };
 		BE84137B1AB943D700BE5171 /* gradientTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradientTop.png; sourceTree = "<group>"; };
 		BE84137C1AB943D700BE5171 /* gradientTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientTop@2x.png"; sourceTree = "<group>"; };
 		BE84137D1AB943D700BE5171 /* gradientTop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientTop@3x.png"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				F786A65D1A8D2297001909D0 /* ViewController.m */,
 				F786A65E1A8D2297001909D0 /* ViewController.xib */,
 				5C58C20F1E09FB6E00116A29 /* qweViewController.swift */,
+				5C74E3381E0A357200742961 /* we.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F786A65B1A8D2266001909D0 /* ProfileView.m in Sources */,
+				5C74E3391E0A357200742961 /* we.swift in Sources */,
 				5C58C2101E09FB6E00116A29 /* qweViewController.swift in Sources */,
 				F786A3821A8CFA72001909D0 /* AppDelegate.m in Sources */,
 				F786A65F1A8D2297001909D0 /* ViewController.m in Sources */,

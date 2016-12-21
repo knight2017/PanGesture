@@ -125,7 +125,7 @@
                 currentIndex=0;
                 return;
             }
-            if (percent > 0.5 || fabs([gesture velocityInView:self.view].x) > 1000)
+            if (percent > 0.5 || fabs([gesture velocityInView:self.view].x) > 20)
             {
 
                 [UIView animateWithDuration:0.2 delay:0.0 options:
@@ -204,7 +204,7 @@
                 currentIndex = [photosUrlArray count]-1;
                 return;
             }
-            if (percent > 0.5 || fabs([gesture velocityInView:self.view].x) > 1000)
+            if (percent > 0.5 || fabs([gesture velocityInView:self.view].x) > 20)
             {
                 [UIView animateWithDuration:0.2 delay:0.0 options:
                  UIViewAnimationOptionTransitionNone animations:^{
